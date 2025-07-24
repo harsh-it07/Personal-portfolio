@@ -536,3 +536,88 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
+/* ----------- For Mobile Devices ----------- */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        padding: 10px;
+
+        height: auto;
+        width: auto;
+        padding: 0px;
+        z-index: 0;
+        position: relative
+    }
+
+    #left {
+        flex-direction: column;
+        align-items: center;
+
+        gap: 5px;
+    }
+
+    #right {
+        margin-top: 20px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Introsection {
+        margin: 90px 20px 20px 20px;
+        padding: 20px;
+    }
+
+    #mainimg {
+        width: 150px;
+        height: 150px;
+    }
+
+    #aboutmepara {
+        margin: 60px 10px;
+        font-size: 15px;
+    }
+
+    .skills-container, .tool-container {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .skill {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    
+
+    .projectone, .projecttwo, .projectthree, .projectfour, .projectfive {
+        width: 90%;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 18px;
+        margin-top: 50px;
+    }
+
+    .info-item {
+        font-size: 14px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .social-link i {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+}
